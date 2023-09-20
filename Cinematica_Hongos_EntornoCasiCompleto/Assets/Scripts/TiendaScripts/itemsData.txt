@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "id": "0",
+      "nombre": "Elixir Sabio",
+      "descripcion": "Las balas pueden congelar y dano + 0.5",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0.5,
+        "rango":0,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "Congelar"
+      },
+      "precio": 150,
+      "nombreModelo": "JarronAzul"
+    },
+    {
+       "id": "1",
+      "nombre": "Te Mush",
+      "descripcion": "Vida + 1 y Rango de disparo + 1",
+      "atributos": {
+        "curacion": 1,
+        "dano": 0,
+        "rango":1,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "null"
+      },
+      "precio": 100,
+      "nombreModelo": "JarronAzulOscuro"
+    },
+    {
+      "id": "2",
+      "nombre": "Vaso Citrico",
+      "descripcion": "Balas por segundo + 0.4 y velocidad de disparo + 1",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0,
+        "rango":0,
+        "balasPorSegundo": 0.4,
+        "velocidadDeDisparo": 1,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "null"
+      },
+      "precio": 120,
+      "nombreModelo": "JarronAmarillo"
+    },
+    {
+      "id": "3",
+      "nombre": "Sabia de Abedul",
+      "descripcion": "Mas velocidad de movimiento",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0,
+        "rango":0,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 150,
+        "habilidadEspecial": "null"
+      },
+      "precio": 90,
+      "nombreModelo": "JarronRojo"
+    },
+    {
+      "id": "4",
+      "nombre": "Bolso",
+      "descripcion": "vida + 2 y Velocidad - 100",
+      "atributos": {
+        "curacion": 2,
+        "dano": 0,
+        "rango":0,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": -100,
+        "habilidadEspecial": "null"
+      },
+      "precio": 110,
+      "nombreModelo": "BolsoItem"
+    },
+    {
+      "id": "5",
+      "nombre": "Cenizas de estipe",
+      "descripcion": "velocidad de bala + 2.5",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0,
+        "rango":0,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 2.5,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "null"
+      },
+      "precio": 75,
+      "nombreModelo": "CeniseroObjecto"
+    },
+    {
+      "id": "6",
+      "nombre": "Caporum",
+      "descripcion": "Las balas envenenan a los enemigos",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0,
+        "rango":0,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "Envenenar"
+      },
+      "precio": 140,
+      "nombreModelo": "HongoVenenoso"
+    },
+    {
+      "id": "7",
+      "nombre": "TeleEspora",
+      "descripcion": "balas teledirigidas y Rango + 2",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0,
+        "rango":2,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "BalaConSeguimiento"
+      },
+      "precio": 200,
+      "nombreModelo": "JarronMorado"
+    },
+    {
+      "id": "8",
+      "nombre": "Mazo",
+      "descripcion": "Dano + 4, menos balas, menos velocidad de movimiento",
+      "atributos": {
+        "curacion": 0,
+        "dano": 4,
+        "rango":0,
+        "balasPorSegundo": -1,
+        "velocidadDeDisparo": -2,
+        "velocidadDeMovimiento": -100,
+        "habilidadEspecial": "null"
+      },
+      "precio": 130,
+      "nombreModelo": "Martillo"
+    },
+    {
+      "id": "9",
+      "nombre": "Palos",
+      "descripcion": "Balas por segundo + 2",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0,
+        "rango":0,
+        "balasPorSegundo": 1,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "null"
+      },
+      "precio": 140,
+      "nombreModelo": "Rama"
+    },
+    {
+      "id": "10",
+      "nombre": "Sombrero Boater",
+      "descripcion": "Rango + 1",
+      "atributos": {
+        "curacion": 0,
+        "dano": 0,
+        "rango":1,
+        "balasPorSegundo": 0,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "null"
+      },
+      "precio": 50,
+      "nombreModelo": "Sombrero"
+    },
+    {
+      "id": "11",
+      "nombre": "Daga de madera",
+      "descripcion": "Fuerza de disparo + 3 y Balas por segundo + 0.5",
+      "atributos": {
+        "curacion": 0,
+        "dano": 3,
+        "rango":0,
+        "balasPorSegundo": 0.5,
+        "velocidadDeDisparo": 0,
+        "velocidadDeMovimiento": 0,
+        "habilidadEspecial": "null"
+      },
+      "precio": 160,
+      "nombreModelo": "Espada"
+    }
+  ]
+}

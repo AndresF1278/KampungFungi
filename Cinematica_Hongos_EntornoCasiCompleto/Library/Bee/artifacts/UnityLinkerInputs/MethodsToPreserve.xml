@@ -1,0 +1,77 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AsignarBotones">
+			<method name="BotonSalir"/>
+		</type>
+		<type fullname="AudioManager">
+			<method name="playSfx"/>
+			<method name="playSfx"/>
+			<method name="playSfx"/>
+			<method name="playSfx"/>
+			<method name="playSfx"/>
+		</type>
+		<type fullname="FullScreen">
+			<method name="ActiveFULLS"/>
+			<method name="CambiarResolucion"/>
+		</type>
+		<type fullname="GameManager">
+			<method name="pausarJuego"/>
+			<method name="pausarJuego"/>
+			<method name="pausarJuego"/>
+			<method name="pausarJuego"/>
+			<method name="TerminarJuego"/>
+			<method name="TerminarJuego"/>
+		</type>
+		<type fullname="SceneController">
+			<method name="IrScenaConNombre"/>
+		</type>
+		<type fullname="UiManager">
+			<method name="ActivarInterfazPausa"/>
+			<method name="ActivarInterfazPausa"/>
+			<method name="MusicVolume"/>
+			<method name="MusicVolume"/>
+			<method name="MusicVolume"/>
+			<method name="SFXVolume"/>
+			<method name="SFXVolume"/>
+			<method name="SFXVolume"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+		</type>
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

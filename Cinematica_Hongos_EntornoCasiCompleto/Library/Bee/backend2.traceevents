@@ -1,0 +1,386 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1695247804776438, "dur":43728, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247804820178, "dur":296, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247804820562, "dur":275, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247804820987, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1695247804822321, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1695247804822522, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1695247804820858, "dur":5611, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247804826470, "dur":12149472, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247816975944, "dur":111, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247816976057, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247816976252, "dur":5804, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1695247804821369, "dur":5109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695247804826480, "dur":18046, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695247804844536, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/10071946975676581161.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1695247804844590, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695247804845077, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804845267, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804845548, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804845628, "dur":267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804845899, "dur":607, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804846512, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804846709, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804846781, "dur":513, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804847297, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804847377, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804847452, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804847669, "dur":515, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804848191, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804848278, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804848352, "dur":362, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804848717, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804848900, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804849060, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804849137, "dur":376, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804849517, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804849834, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247804851296, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1695247804851411, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1695247804851494, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1695247804851566, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KampungFungi\\Kampung-Fungi\\Cinematica_Hongos_EntornoCasiCompleto\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1695247804844797, "dur":8158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/KampungFungi/Kampung-Fungi/Cinematica_Hongos_EntornoCasiCompleto/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1695247804855065, "dur":271, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695247805146025, "dur":2633712, "ph":"X", "name": "UnityLinker",  "args": { "detail":"C:/KampungFungi/Kampung-Fungi/Cinematica_Hongos_EntornoCasiCompleto/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1695247807807850, "dur":105613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247807913538, "dur":147375, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247808066033, "dur":49614, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247808115653, "dur":121871, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695247807807795, "dur":429872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1695247808239891, "dur":8733702, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1695247816974861, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247804821419, "dur":5063, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804826485, "dur":1972, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804828457, "dur":1977, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804831300, "dur":755, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.2f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247804830434, "dur":1829, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804833221, "dur":521, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.2f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247804832264, "dur":2046, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804834310, "dur":772, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804835082, "dur":1244, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804836326, "dur":8220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804844554, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247804845488, "dur":5256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695247804850748, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804851090, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804853028, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1695247804853450, "dur":4983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1695247804858485, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804860000, "dur":6460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804866528, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1695247804866937, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1695247804870483, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804870625, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804873337, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804873933, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1695247804877320, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1695247804877580, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1695247804879177, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247804879458, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247804881534, "dur":7588, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1695247804881493, "dur":7632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi.exe" }}
+,{ "pid":12345, "tid":2, "ts":1695247804889161, "dur":8454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi.exe" }}
+,{ "pid":12345, "tid":2, "ts":1695247804897674, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1695247804901110, "dur":532423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1695247805433590, "dur":2374206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695247807807797, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807808404, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807810071, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807811420, "dur":607, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807811372, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807812042, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807814107, "dur":99360, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807814105, "dur":99363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807913512, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807914626, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807915779, "dur":4340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807915738, "dur":4383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807920141, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807921106, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807921948, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807922833, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807923559, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807924875, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807927059, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807927970, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807928830, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807929636, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807930346, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807931760, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807934317, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807937617, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807938934, "dur":73133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247807938892, "dur":73176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808012087, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808013461, "dur":4060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808017577, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808018828, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808019651, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808024037, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808026962, "dur":88689, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808026921, "dur":88731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808115700, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695247808118404, "dur":8857519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804821408, "dur":5081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804826492, "dur":1705, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804828198, "dur":1443, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804829642, "dur":1410, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804831052, "dur":982, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804832035, "dur":813, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804832849, "dur":755, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804833605, "dur":2115, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804835721, "dur":8811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804845487, "dur":465, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1695247804845957, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1695247804846066, "dur":9483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1695247804855552, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1695247804856449, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playere42cbb3a-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1695247804845955, "dur":10826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1695247804857966, "dur":236, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247804858786, "dur":305259, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1695247805192486, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1695247805192446, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1695247805192589, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1695247805194263, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1695247805195699, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1695247805196649, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1695247805202456, "dur":232272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1695247805434776, "dur":2373041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247807807874, "dur":710, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807807818, "dur":768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807808662, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807810835, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807812471, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807814038, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807814195, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807815419, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807815489, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807816771, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807817987, "dur":25052, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807817940, "dur":25101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807843054, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807845471, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807846240, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807847022, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807847954, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807848031, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807849200, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807849271, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807850505, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807853119, "dur":109, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695247807851648, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807853249, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807853315, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807854357, "dur":47562, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807854316, "dur":47610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807901946, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807902979, "dur":150506, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247807902936, "dur":150550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808053508, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808054886, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808059452, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808060521, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808062630, "dur":4046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808066688, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808067999, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808068182, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808069403, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808069484, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808072726, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808074535, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808074602, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808076089, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808078147, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808082945, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808083011, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808085121, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808085286, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808086331, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808090601, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808091940, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808092010, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808093538, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808095096, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695247808096476, "dur":8879457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804821463, "dur":5032, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804826498, "dur":1533, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804828032, "dur":1590, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804831021, "dur":674, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.2f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.deps.json" }}
+,{ "pid":12345, "tid":4, "ts":1695247804829623, "dur":2254, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804831877, "dur":740, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804832618, "dur":778, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804833397, "dur":730, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804834128, "dur":864, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804834992, "dur":1123, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804836116, "dur":8455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247804844572, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1695247804846995, "dur":7156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1695247804854205, "dur":1039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1695247804855423, "dur":5005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1695247804860485, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1695247804860647, "dur":6541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1695247804867233, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1695247804867370, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1695247804870650, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1695247804870756, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1695247804873300, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695247804873946, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695247804877205, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1695247804877362, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1695247804880449, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247804880704, "dur":15902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247804896679, "dur":38078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1695247804934817, "dur":247302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695247805185384, "dur":27088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1695247805212552, "dur":7189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1695247805219820, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695247805222986, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1695247805224410, "dur":50192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695247805274675, "dur":11403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1695247805286150, "dur":143671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695247805430020, "dur":2377814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695247807807835, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807808368, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807810548, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807812464, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807814220, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807815373, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807816610, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807817786, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807818739, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807819586, "dur":18846, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807819541, "dur":18893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807838454, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807839484, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807840295, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807841440, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807841520, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807842400, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807843181, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807844650, "dur":98492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807844608, "dur":98539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807943164, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807944346, "dur":116915, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247807944306, "dur":116956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808061278, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808062769, "dur":3562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808066393, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808067853, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808068429, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808069551, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808072550, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808074535, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808075943, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808079461, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808083096, "dur":3050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808086226, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808087894, "dur":149642, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808087844, "dur":149694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808237565, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695247808238634, "dur":8737267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804821500, "dur":5001, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804826504, "dur":1487, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804827992, "dur":1703, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804829696, "dur":2097, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804831793, "dur":876, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804832669, "dur":805, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804833474, "dur":719, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804834194, "dur":831, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804835025, "dur":959, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804835985, "dur":8588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804844574, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1695247804847477, "dur":7599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1695247804855296, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1695247804856000, "dur":10960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1695247804867007, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1695247804867331, "dur":6696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1695247804874082, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1695247804874495, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1695247804877080, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1695247804877416, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1695247804881876, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1695247804882248, "dur":19374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1695247804934413, "dur":197, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247804901729, "dur":32901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695247804934725, "dur":6591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695247804941450, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695247804943608, "dur":472934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1695247805416589, "dur":2391244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695247807807834, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807808554, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807810302, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807811885, "dur":86176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807811835, "dur":86229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807898391, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807901437, "dur":66971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807901371, "dur":67039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807968430, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807970730, "dur":86102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247807970691, "dur":86143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808056859, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808060161, "dur":663, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808060018, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808060842, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808063047, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808065448, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808065521, "dur":4239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808069816, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808074386, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808076020, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808076081, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808079338, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808083188, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808086288, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808089784, "dur":5323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808089734, "dur":5374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808095120, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695247808096351, "dur":8879555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804821529, "dur":4987, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804826516, "dur":1440, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804827957, "dur":1521, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804829478, "dur":1531, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804831009, "dur":753, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804831763, "dur":1178, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804832941, "dur":811, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804834389, "dur":1004, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.2f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Collections.Concurrent.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247804833753, "dur":1820, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804835574, "dur":307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804835881, "dur":8689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247804844571, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247804845638, "dur":60753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247804906666, "dur":40292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695247804947056, "dur":339242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695247805286361, "dur":36026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1695247805322460, "dur":72540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695247805395064, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1695247805396313, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695247805398819, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1695247805400054, "dur":9149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695247805409351, "dur":5072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1695247805414503, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1695247805416512, "dur":2391286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695247807807799, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807808360, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807810033, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807811441, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807812924, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807814399, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807815471, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807816895, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807816959, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807818193, "dur":37735, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807818148, "dur":37783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807855953, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807858213, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807858421, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807859732, "dur":35265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807859691, "dur":35308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807895021, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807896176, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807899081, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807900769, "dur":195944, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247807900719, "dur":195995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247808096728, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KampungFungi/BuildFinal/Kampung Fungi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695247808098045, "dur":8877858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695247816987692, "dur":1490, "ph":"X", "name": "ProfilerWriteOutput" }
+,

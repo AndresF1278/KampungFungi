@@ -1,0 +1,39 @@
+Prioridad 1
+
+PequeñosCambios
+	Cambiar Boton de enemigos
+	Ir a la tienda con presionar E
+	poner arboles detras de la valla
+	Transiciones:
+		Transicion IniciarJuego
+		Transicion Tienda
+		Transicion Bosque
+		Transision Cambio DIa
+
+
+
+Prioridad 2
+		- hacer por lo menos 2 tipos de enemigos distintos
+		-enemigo que dispare
+		-enemigo que sea muy veloz
+
+
+Prioridad 3
+Items 
+	-aumentar la cantidad de items en el json
+	-aumentar la cantidad de items en prefab.
+	-que no salgan items repetidos al cambiar de dia.
+	Habilidades especiales
+		-conjelar, envenenar, etc
+
+Prioridad4
+Planear el boss
+
+
+Prioridad 5
+Balanceo de juego
+
+prioridad 6 
+
+Guardar partida
+

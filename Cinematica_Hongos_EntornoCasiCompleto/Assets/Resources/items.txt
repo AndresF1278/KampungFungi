@@ -1,0 +1,14 @@
+{
+    "items": [
+      {
+        "nombre": "Item 1",
+        "descripcion": "Este es el primer item",
+       
+      },
+      {
+        "nombre": "Item 2",
+        "descripcion": "Este es el segundo item",
+        
+      }
+    ]
+  }

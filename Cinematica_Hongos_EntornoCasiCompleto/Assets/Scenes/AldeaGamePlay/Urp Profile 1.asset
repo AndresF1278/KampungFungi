@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6246173550913502527
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-5217728649992227359
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 0
+  postExposure:
+    m_OverrideState: 0
+    m_Value: 0
+  contrast:
+    m_OverrideState: 0
+    m_Value: -61.3
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 0.51540077, g: 1, b: 0, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 21
+  saturation:
+    m_OverrideState: 0
+    m_Value: 55.8
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Urp Profile 1
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -6246173550913502527}
+  - {fileID: -5217728649992227359}
+  - {fileID: 3305883524684164216}
+--- !u!114 &3305883524684164216
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
+  m_Name: ShadowsMidtonesHighlights
+  m_EditorClassIdentifier: 
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.59848154, z: 0.39884084, w: 0}
+  midtones:
+    m_OverrideState: 1
+    m_Value: {x: 0.6582577, y: 1, z: 0.9594176, w: 0}
+  highlights:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  shadowsStart:
+    m_OverrideState: 1
+    m_Value: 0.3
+  shadowsEnd:
+    m_OverrideState: 1
+    m_Value: 16.07
+  highlightsStart:
+    m_OverrideState: 1
+    m_Value: 0.81
+  highlightsEnd:
+    m_OverrideState: 1
+    m_Value: 1.98
